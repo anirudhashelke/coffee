@@ -2,6 +2,7 @@ import React from 'react'
 import { FaUser } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from 'react-router-dom';
 // import "./banner.css";
 const Header = () => {
   const data = [
@@ -32,7 +33,7 @@ const Header = () => {
 
   ]
   return (
-    <section className='py-4 a_banner  position-relative top-0'>
+    <section className='py-4 a_banner '>
       <div className='container  '>
         <div className="row justify-between ">
           <div className='col-12 col-md-3 flex  align-center '>
@@ -41,12 +42,12 @@ const Header = () => {
           <div className='col-12 col-md-6  justify-center align-center '>
 
             <ul className='flex  gap-3 justify-end align-center  a-header'>
-              <li ><a className='a-home active' href="#">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">COFFEES</a></li>
-              <li><a href="#">SHOP</a></li>
-              <li><a href="#">BLOG</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><Link className='a-home active' to={"/"}>HOME</Link> </li>
+              <li><Link to={"/about"}>ABOUT</Link> </li>
+              <li><Link to={"/coffees"}>COFFEES</Link> </li>
+              <li><Link to={"/shop"}>SHOP</Link> </li>
+              <li><Link to={"/blog"}>BLOG</Link> </li>
+              <li><Link to={"/contact"}>CONTACT</Link> </li>
             </ul>
           </div>
 
