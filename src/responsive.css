@@ -1,0 +1,88 @@
+@media screen and (max-width: 768px) {
+    .a_about_box{
+        padding: 16px !important;
+        width:70% !important;
+        margin: 0px !important;
+        left: 20px !important;
+        top: 0 !important;
+        margin-top: 5px !important;
+    }
+    .a_about_box button{
+        margin: 0px !important;
+        margin-top: 8px !important;
+    }
+     .a_about_box h3{
+       font-size: 12px !important;
+
+     }
+     .a_about_main{
+        margin: 0 !important;
+     }
+     .a_about_box p{
+        font-size: 8px !important;
+     }
+     h1{
+        font-size:24px !important;
+     }
+     .a_res{
+        font-size: 10px;
+        padding:7px;
+        
+     }
+     /* banner */
+     .a_carol{
+        margin-top: 270px !important;
+     }
+     .a_banner_box{
+        margin-top: 20px !important;
+     }
+    /* customer */
+    .a_custpmer .container{
+        padding: 0 !important;
+    }
+    .a_custpmer p{
+   font-size: 8px !important;
+    }
+    .a_custpmer h5{
+        font-size: 10px !important;
+    }
+    .a_customer_data{
+        margin: 0px !important;
+    }
+    /* blogs */
+    .a_blogs{
+        margin: 0 !important;
+        margin-bottom:30px !important;
+    }
+    .a_blogs_details{
+      margin: 10px 0px !important;
+    }
+/* footer */
+.a_footer p{
+padding:20px 0px !important;
+}
+/* header */
+.a_banner{
+    height: 100% !important;
+}
+.a_banner h4{
+    color: #fff !important;
+}
+.a_banner h1{
+    font-size: 40px !important;
+}
+.a_header_login{
+    color: #fff !important;
+    display: flex !important;
+    justify-content:start !important;
+    gap: 40px !important;
+    align-items:center !important ;
+}
+.a-header li a{
+    font-size: 14px !important;
+}
+.a-header{
+    margin: 10px 0px !important;
+}
+
+}

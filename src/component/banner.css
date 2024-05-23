@@ -1,0 +1,63 @@
+.a_banner{
+    background-image: url('/public/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  
+}
+.a-header li a{
+ color: #a9a8a8;
+ 
+}
+.a-header .a-home.active{
+    color:#4c4c4c ;
+}
+.a-header li a:hover{
+    color:#4c4c4c ;
+}
+/* our  */
+.a_our_btn{
+    border: 1px solid #d78373;
+   
+}
+.a_our_btn:hover{
+    border: 1px solid #3b3b3b;
+}
+/* customer */
+.a_custpmer{
+    background-image: url("/public/client-bg.png");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ourblog */
+.a_ourblog{
+    box-shadow: 0 0 20px 0;
+    background-color: #fff;
+
+}
+/* touch */
+form ::placeholder{
+    color: #2e2e2d;
+    font-size: 16px;
+    
+}
+input:focus{
+  outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+/* footer */
+.a_footer{
+    background-image:url("/public/footer-bg.png");
+    /* height: 400px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a_footer_icons{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
