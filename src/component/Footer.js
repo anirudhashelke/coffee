@@ -26,7 +26,7 @@ const Footer = () => {
                      </div>
                      <div className='flex gap-2 align-items-center justify-center'>
                      <IoMdMail className='text-white' />
-                        <h6 className='text-[16px a-400]'>mail@domain.com</h6>
+                        <h6 className='text-[16px a-400]'>shelke699gmail.com</h6>
                      </div>
             </div>
          </div>
